@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE etapa SYSTEM "etapa.dtd">
+
+<etapa>
+    <nombre>ALCOSSEBRE-CASTELLÓ</nombre>
+    <numero>6</numero>
+    <longitud unidad="km">195.4</longitud>
+    <fecha>2026-09-12</fecha>
+    <tiempo>4h 31m 27s</tiempo>
+    <velocidadMedia unidad="km/h">177,5</velocidadMedia>
+    <desnivel unidad="m">673</desnivel>
+    <salida>ALCOSSEBRE</salida>
+    <llegada>CASTELLÓ</llegada>
+    <tipo valor="media_montana">media montaña</tipo>
+
+    <referencias>
+        <referencia id="1">Ayuntamiento de Alcossebre. https://www.alcaladexivert.es/</referencia>
+        <referencia id="2">Ayuntamiento de Castelló de la Plana. https://www.castello.es/es/</referencia>
+        <referencia id="3">Generalitat Valenciana. https://parquesnaturales.gva.es/es/web/pn-serra-d-irta</referencia>
+        <referencia id="4">Santa María de Castelló. https://www.concatedral.com/</referencia>
+    </referencias>
+
+    <galeriaFotos>
+        <foto ruta="multimedia/salida.png">Salida de Alcossebre</foto>
+        <foto ruta="multimedia/meta.jpg">Meta en Castelló</foto>
+    </galeriaFotos>
+
+    <galeriaVideos>
+        <video ruta="multimedia/recorrido_alcossebre_castello.mp4">Recorrido de la etapa</video>
+    </galeriaVideos>
+
+    <galeriaSonidos>
+        <sonido ruta="multimedia/podcast_alcossebre.mp3">Podcast de Alcossebre</sonido>
+    </galeriaSonidos>
+
+    <coordenadasSalida longitud="0.2147" longitudUnidad="grados" latitud="40.2865" latitudUnidad="grados" altitud="15" altitudUnidad="m"/>
+    <coordenadasLlegada longitud="-0.0373" longitudUnidad="grados" latitud="39.9866" latitudUnidad="grados" altitud="20" altitudUnidad="m"/>
+
+    <hitosImportantes>
+        <puerto tipo="segunda">
+            <nombre>Serra d'Irta</nombre>
+            <coordenadas longitud="0.2310" longitudUnidad="grados" latitud="40.2940" latitudUnidad="grados" altitud="420" altitudUnidad="m"/>
+            <distancia unidad="km">54.2</distancia>
+        </puerto>
+        <sprintIntermedio>
+            <coordenadas longitud="0.2198" longitudUnidad="grados" latitud="40.2891" latitudUnidad="grados" altitud="58" altitudUnidad="m"/>
+            <distancia unidad="km">18.7</distancia>
+        </sprintIntermedio>
+        <sprintBonificado>
+            <coordenadas longitud="0.0880" longitudUnidad="grados" latitud="40.1190" latitudUnidad="grados" altitud="110" altitudUnidad="m"/>
+            <distancia unidad="km">110.5</distancia>
+        </sprintBonificado>
+    </hitosImportantes>
+
+    <puntosAnonimos>
+        <puntoAnonimo>
+            <coordenadas longitud="0.2189" longitudUnidad="grados" latitud="40.2875" latitudUnidad="grados" altitud="32" altitudUnidad="m"/>
+            <distancia unidad="km">8.6</distancia>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Punto 2</nombre>
+            <coordenadas longitud="0.1754" longitudUnidad="grados" latitud="40.2406" latitudUnidad="grados" altitud="145" altitudUnidad="m"/>
+            <distancia unidad="km">37.4</distancia>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <coordenadas longitud="0.0642" longitudUnidad="grados" latitud="40.1695" latitudUnidad="grados" altitud="96" altitudUnidad="m"/>
+            <distancia unidad="km">84.1</distancia>
+        </puntoAnonimo>
+    </puntosAnonimos>
+
+    <clasificacionEtapa>
+        <clasificado posicion="1" nombre="Ciclista 1" tiempo="4h 31m 27s" diferencia="0"/>
+        <clasificado posicion="2" nombre="Ciclista 2" tiempo="4h 32m 12s" diferencia="00:45"/>
+        <clasificado posicion="3" nombre="Ciclista 3" tiempo="4h 32m 58s" diferencia="01:31"/>
+    </clasificacionEtapa>
+
+    <clasificacionGeneral>
+        <clasificadoGeneral posicion="1" nombre="Ciclista A" tiempo="29h 18m 12s" diferencia="0"/>
+        <clasificadoGeneral posicion="2" nombre="Ciclista B" tiempo="29h 18m 55s" diferencia="00:43"/>
+        <clasificadoGeneral posicion="3" nombre="Ciclista C" tiempo="29h 19m 22s" diferencia="01:10"/>
+    </clasificacionGeneral>
+
+    <clasificacionEquipos>
+        <equipo posicion="1" nombre="Equipo Alpha" tiempo="87h 41m 19s" diferencia="0"/>
+        <equipo posicion="2" nombre="Equipo Beta" tiempo="87h 42m 03s" diferencia="00:44"/>
+        <equipo posicion="3" nombre="Equipo Gamma" tiempo="87h 42m 58s" diferencia="01:39"/>
+    </clasificacionEquipos>
+</etapa>

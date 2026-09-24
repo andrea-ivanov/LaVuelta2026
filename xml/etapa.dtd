@@ -1,0 +1,75 @@
+<!ELEMENT etapa (nombre, numero, longitud, fecha, tiempo, velocidadMedia, desnivel, salida, llegada, tipo, referencias, galeriaFotos, galeriaVideos, galeriaSonidos, coordenadasSalida, coordenadasLlegada, hitosImportantes, puntosAnonimos, clasificacionEtapa, clasificacionGeneral, clasificacionEquipos)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT longitud (#PCDATA)>
+<!ATTLIST longitud unidad CDATA #REQUIRED>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT tiempo (#PCDATA)>
+<!ELEMENT velocidadMedia (#PCDATA)>
+<!ATTLIST velocidadMedia unidad CDATA #REQUIRED>
+<!ELEMENT desnivel (#PCDATA)>
+<!ATTLIST desnivel unidad CDATA #REQUIRED>
+<!ELEMENT salida (#PCDATA)>
+<!ELEMENT llegada (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>
+<!ATTLIST tipo valor (llana|montana|contrarreloj_individual|contrarreloj_por_equipos|media_montana) #REQUIRED>
+<!ELEMENT referencias (referencia+)>
+<!ELEMENT referencia (#PCDATA)>
+<!ATTLIST referencia id CDATA #REQUIRED>
+<!ELEMENT galeriaFotos (foto+)>
+<!ELEMENT foto (#PCDATA)>
+<!ATTLIST foto ruta CDATA #REQUIRED>
+<!ELEMENT galeriaVideos (video+)>
+<!ELEMENT video (#PCDATA)>
+<!ATTLIST video ruta CDATA #REQUIRED>
+<!ELEMENT galeriaSonidos (sonido+)>
+<!ELEMENT sonido (#PCDATA)>
+<!ATTLIST sonido ruta CDATA #REQUIRED>
+<!ELEMENT coordenadasSalida EMPTY>
+<!ATTLIST coordenadasSalida longitud CDATA #REQUIRED
+                            longitudUnidad CDATA #REQUIRED
+                            latitud CDATA #REQUIRED
+                            latitudUnidad CDATA #REQUIRED
+                            altitud CDATA #REQUIRED
+                            altitudUnidad CDATA #REQUIRED>
+<!ELEMENT coordenadasLlegada EMPTY>
+<!ATTLIST coordenadasLlegada longitud CDATA #REQUIRED
+                            longitudUnidad CDATA #REQUIRED
+                            latitud CDATA #REQUIRED
+                            latitudUnidad CDATA #REQUIRED
+                            altitud CDATA #REQUIRED
+                            altitudUnidad CDATA #REQUIRED>
+<!ELEMENT hitosImportantes (puerto+, sprintIntermedio?, sprintBonificado?)>
+<!ELEMENT puerto (nombre?, coordenadas, distancia)>
+<!ATTLIST puerto tipo (primera|segunda|tercera|especial|bonificado) #REQUIRED>
+<!ELEMENT sprintIntermedio (coordenadas, distancia)>
+<!ELEMENT sprintBonificado (coordenadas, distancia)>
+<!ELEMENT coordenadas EMPTY>
+<!ATTLIST coordenadas longitud CDATA #REQUIRED
+                      longitudUnidad CDATA #REQUIRED
+                      latitud CDATA #REQUIRED
+                      latitudUnidad CDATA #REQUIRED
+                      altitud CDATA #REQUIRED
+                      altitudUnidad CDATA #REQUIRED>
+<!ELEMENT distancia (#PCDATA)>
+<!ATTLIST distancia unidad CDATA #REQUIRED>
+<!ELEMENT puntosAnonimos (puntoAnonimo+)>
+<!ELEMENT puntoAnonimo (nombre?, coordenadas, distancia)>
+<!ELEMENT clasificacionEtapa (clasificado, clasificado, clasificado)>
+<!ELEMENT clasificado EMPTY>
+<!ATTLIST clasificado posicion CDATA #REQUIRED
+                      nombre CDATA #REQUIRED
+                      tiempo CDATA #IMPLIED
+                      diferencia CDATA #IMPLIED>
+<!ELEMENT clasificacionGeneral (clasificadoGeneral, clasificadoGeneral, clasificadoGeneral)>
+<!ELEMENT clasificadoGeneral EMPTY>
+<!ATTLIST clasificadoGeneral posicion CDATA #REQUIRED
+                             nombre CDATA #REQUIRED
+                             tiempo CDATA #IMPLIED
+                             diferencia CDATA #IMPLIED>
+<!ELEMENT clasificacionEquipos (equipo, equipo, equipo)>
+<!ELEMENT equipo EMPTY>
+<!ATTLIST equipo posicion CDATA #REQUIRED
+                 nombre CDATA #REQUIRED
+                 tiempo CDATA #IMPLIED
+                 diferencia CDATA #IMPLIED>
