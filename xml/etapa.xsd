@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.uniovi.es" xmlns="http://www.uniovi.es" elementFormDefault="qualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.uniovi.es"
+	xmlns="http://www.uniovi.es" elementFormDefault="qualified">
 	<xs:element name="etapa">
 		<xs:complexType>
 			<xs:sequence>
@@ -200,11 +201,11 @@
 	</xs:element>
 	<xs:element name="hitosImportantes">
 		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="1" maxOccurs="unbounded" ref="puerto" />
-				<xs:element minOccurs="0" maxOccurs="1" ref="sprintIntermedio" />
-				<xs:element minOccurs="0" maxOccurs="1" ref="sprintBonificado" />
-			</xs:sequence>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element ref="puerto" />
+				<xs:element ref="sprintIntermedio" />
+				<xs:element ref="sprintBonificado" />
+			</xs:choice>
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="puerto">

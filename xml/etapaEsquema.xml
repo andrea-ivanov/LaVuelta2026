@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<etapa xmlns="http://www.uniovi.es"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://www.uniovi.es etapa.xsd">
+<?xml version='1.0' encoding='utf-8'?>
+<etapa xmlns="http://www.uniovi.es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.uniovi.es etapa.xsd">
     <nombre>ALCOSSEBRE-CASTELLÓ</nombre>
     <numero>6</numero>
     <longitud unidad="km">195.4</longitud>
@@ -12,7 +10,6 @@
     <salida>ALCOSSEBRE</salida>
     <llegada>CASTELLÓ</llegada>
     <tipo valor="media_montana">Media montaña</tipo>
-
     <referencias>
         <referencia id="1">Ayuntamiento de Alcossebre. https://www.alcaladexivert.es/</referencia>
         <referencia id="2">Ayuntamiento de Castelló de la Plana. https://www.castello.es/es/</referencia>
@@ -20,232 +17,304 @@
             https://parquesnaturales.gva.es/es/web/pn-serra-d-irta</referencia>
         <referencia id="4">Santa María de Castelló. https://www.concatedral.com/</referencia>
     </referencias>
-
     <galeriaFotos>
         <foto ruta="multimedia/salida.png">Salida de Alcossebre</foto>
         <foto ruta="multimedia/meta.jpg">Meta en Castelló</foto>
     </galeriaFotos>
-
     <galeriaVideos>
         <video ruta="multimedia/etapa-6-castello.mp4">Recorrido de la etapa</video>
     </galeriaVideos>
-
     <galeriaSonidos>
         <sonido ruta="multimedia/podcast_alcossebre.mp3">Podcast de Alcossebre</sonido>
     </galeriaSonidos>
-
-    <coordenadasSalida longitud="0.246447" longitudUnidad="grados" latitud="40.252003"
-        latitudUnidad="grados" altitud="15" altitudUnidad="m" />
-    <coordenadasLlegada longitud="-0.033494" longitudUnidad="grados" latitud="39.975814"
-        latitudUnidad="grados" altitud="19.99" altitudUnidad="m" />
-
+    <coordenadasSalida longitud="0.246447" longitudUnidad="grados" latitud="40.252003" latitudUnidad="grados" altitud="15" altitudUnidad="m" />
+    <coordenadasLlegada longitud="-0.033494" longitudUnidad="grados" latitud="39.975814" latitudUnidad="grados" altitud="19.99" altitudUnidad="m" />
     <hitosImportantes>
         <puerto tipo="segunda">
             <nombre>Puerto de la Serratella</nombre>
-            <coordenadas longitud="0.0248" longitudUnidad="grados" latitud="40.3015"
-                latitudUnidad="grados" altitud="839" altitudUnidad="m" />
-            <distancia unidad="km">44.6</distancia>
+            <coordenadas longitud="0.028365" longitudUnidad="grados" latitud="40.323884" latitudUnidad="grados" altitud="838.4" altitudUnidad="m" />
+            <distancia unidad="km">44.8</distancia>
         </puerto>
         <puerto tipo="tercera">
             <nombre>Coll de la Bandereta</nombre>
-            <coordenadas longitud="0.0673" longitudUnidad="grados" latitud="40.2443"
-                latitudUnidad="grados" altitud="790" altitudUnidad="m" />
+            <coordenadas longitud="-0.032645" longitudUnidad="grados" latitud="40.276616" latitudUnidad="grados" altitud="780.9" altitudUnidad="m" />
             <distancia unidad="km">66.1</distancia>
         </puerto>
         <puerto tipo="segunda">
             <nombre>Alto del Desierto de las Palmas</nombre>
-            <coordenadas longitud="0.0354" longitudUnidad="grados" latitud="40.0768"
-                latitudUnidad="grados" altitud="422" altitudUnidad="m" />
-            <distancia unidad="km">128.5</distancia>
-        </puerto>
-        <puerto tipo="primera">
-            <nombre>Puerto El Bartolo</nombre>
-            <coordenadas longitud="0.0298" longitudUnidad="grados" latitud="40.0886"
-                latitudUnidad="grados" altitud="713" altitudUnidad="m" />
-            <distancia unidad="km">156.8</distancia>
+            <coordenadas longitud="0.027091" longitudUnidad="grados" latitud="40.073811" latitudUnidad="grados" altitud="419.2" altitudUnidad="m" />
+            <distancia unidad="km">128.6</distancia>
         </puerto>
         <sprintIntermedio>
-            <coordenadas longitud="0.0631" longitudUnidad="grados" latitud="40.0531"
-                latitudUnidad="grados" altitud="14" altitudUnidad="m" />
-            <distancia unidad="km">120.1</distancia>
+            <coordenadas longitud="-0.007070" longitudUnidad="grados" latitud="40.025169" latitudUnidad="grados" altitud="23.0" altitudUnidad="m" />
+            <distancia unidad="km">137.3</distancia>
         </sprintIntermedio>
+        <puerto tipo="primera">
+            <nombre>Puerto El Bartolo (Bonificado)</nombre>
+            <coordenadas longitud="0.031343" longitudUnidad="grados" latitud="40.085827" latitudUnidad="grados" altitud="692.7" altitudUnidad="m" />
+            <distancia unidad="km">156.4</distancia>
+        </puerto>
+        <puerto tipo="segunda">
+            <nombre>Alto del Desierto de las Palmas</nombre>
+            <coordenadas longitud="0.027091" longitudUnidad="grados" latitud="40.073811" latitudUnidad="grados" altitud="419.2" altitudUnidad="m" />
+            <distancia unidad="km">160.0</distancia>
+        </puerto>
     </hitosImportantes>
-
     <puntosAnonimos>
         <puntoAnonimo>
-            <coordenadas longitud="0.246426" longitudUnidad="grados" latitud="40.252016"
-                latitudUnidad="grados" altitud="59.9" altitudUnidad="m" />
-            <distancia unidad="km">0.0</distancia>
+            <nombre>Punto anonimo 1</nombre>
+            <coordenadas longitud="0.239624" longitudUnidad="grados" latitud="40.272247" latitudUnidad="grados" altitud="103.9" altitudUnidad="m" />
+            <distancia unidad="km">2.3</distancia>
         </puntoAnonimo>
         <puntoAnonimo>
-            <coordenadas longitud="0.186419" longitudUnidad="grados" latitud="40.298231"
-                latitudUnidad="grados" altitud="255.6" altitudUnidad="m" />
-            <distancia unidad="km">12.0</distancia>
+            <nombre>Punto anonimo 2</nombre>
+            <coordenadas longitud="0.224780" longitudUnidad="grados" latitud="40.282785" latitudUnidad="grados" altitud="159.5" altitudUnidad="m" />
+            <distancia unidad="km">4.1</distancia>
         </puntoAnonimo>
         <puntoAnonimo>
-            <coordenadas longitud="0.167617" longitudUnidad="grados" latitud="40.299969"
-                latitudUnidad="grados" altitud="171.7" altitudUnidad="m" />
-            <distancia unidad="km">16.8</distancia>
+            <nombre>Punto anonimo 3</nombre>
+            <coordenadas longitud="0.227671" longitudUnidad="grados" latitud="40.299101" latitudUnidad="grados" altitud="149.5" altitudUnidad="m" />
+            <distancia unidad="km">6.0</distancia>
         </puntoAnonimo>
         <puntoAnonimo>
-            <coordenadas longitud="0.122231" longitudUnidad="grados" latitud="40.315246"
-                latitudUnidad="grados" altitud="176.5" altitudUnidad="m" />
-            <distancia unidad="km">23.5</distancia>
+            <nombre>Punto anonimo 4</nombre>
+            <coordenadas longitud="0.225222" longitudUnidad="grados" latitud="40.301381" latitudUnidad="grados" altitud="150.0" altitudUnidad="m" />
+            <distancia unidad="km">6.3</distancia>
         </puntoAnonimo>
         <puntoAnonimo>
-            <coordenadas longitud="0.067659" longitudUnidad="grados" latitud="40.263945"
-                latitudUnidad="grados" altitud="312.2" altitudUnidad="m" />
-            <distancia unidad="km">33.7</distancia>
+            <nombre>Punto anonimo 5</nombre>
+            <coordenadas longitud="0.229268" longitudUnidad="grados" latitud="40.306103" latitudUnidad="grados" altitud="152.1" altitudUnidad="m" />
+            <distancia unidad="km">7.0</distancia>
         </puntoAnonimo>
         <puntoAnonimo>
-            <coordenadas longitud="0.039124" longitudUnidad="grados" latitud="40.284536"
-                latitudUnidad="grados" altitud="568.8" altitudUnidad="m" />
-            <distancia unidad="km">40.2</distancia>
+            <nombre>Punto anonimo 5</nombre>
+            <coordenadas longitud="0.223058" longitudUnidad="grados" latitud="40.305096" latitudUnidad="grados" altitud="159.4" altitudUnidad="m" />
+            <distancia unidad="km">7.5</distancia>
         </puntoAnonimo>
         <puntoAnonimo>
-            <coordenadas longitud="0.030815" longitudUnidad="grados" latitud="40.306082"
-                latitudUnidad="grados" altitud="801.4" altitudUnidad="m" />
-            <distancia unidad="km">45.4</distancia>
+            <nombre>Punto anonimo 6</nombre>
+            <coordenadas longitud="0.218108" longitudUnidad="grados" latitud="40.302959" latitudUnidad="grados" altitud="167.7" altitudUnidad="m" />
+            <distancia unidad="km">8.0</distancia>
         </puntoAnonimo>
         <puntoAnonimo>
-            <coordenadas longitud="0.037634" longitudUnidad="grados" latitud="40.334191"
-                latitudUnidad="grados" altitud="787.2" altitudUnidad="m" />
-            <distancia unidad="km">51.2</distancia>
+            <nombre>Punto anonimo 7</nombre>
+            <coordenadas longitud="0.189485" longitudUnidad="grados" latitud="40.301643" latitudUnidad="grados" altitud="258.2" altitudUnidad="m" />
+            <distancia unidad="km">10.5</distancia>
         </puntoAnonimo>
         <puntoAnonimo>
-            <coordenadas longitud="0.022341" longitudUnidad="grados" latitud="40.354578"
-                latitudUnidad="grados" altitud="535.3" altitudUnidad="m" />
-            <distancia unidad="km">57.7</distancia>
+            <nombre>Punto anonimo 8</nombre>
+            <coordenadas longitud="0.181940" longitudUnidad="grados" latitud="40.292409" latitudUnidad="grados" altitud="294.1" altitudUnidad="m" />
+            <distancia unidad="km">11.8</distancia>
         </puntoAnonimo>
         <puntoAnonimo>
-            <coordenadas longitud="-0.036945" longitudUnidad="grados" latitud="40.292144"
-                latitudUnidad="grados" altitud="603.7" altitudUnidad="m" />
-            <distancia unidad="km">69.6</distancia>
+            <nombre>Punto anonimo 9</nombre>
+            <coordenadas longitud="0.179285" longitudUnidad="grados" latitud="40.295793" latitudUnidad="grados" altitud="297.2" altitudUnidad="m" />
+            <distancia unidad="km">12.3</distancia>
         </puntoAnonimo>
         <puntoAnonimo>
-            <coordenadas longitud="-0.019332" longitudUnidad="grados" latitud="40.268497"
-                latitudUnidad="grados" altitud="741.9" altitudUnidad="m" />
-            <distancia unidad="km">75.9</distancia>
+            <nombre>Punto anonimo 11</nombre>
+            <coordenadas longitud="0.171842" longitudUnidad="grados" latitud="40.295744" latitudUnidad="grados" altitud="226.3" altitudUnidad="m" />
+            <distancia unidad="km">12.9</distancia>
         </puntoAnonimo>
         <puntoAnonimo>
-            <coordenadas longitud="-0.014017" longitudUnidad="grados" latitud="40.23986"
-                latitudUnidad="grados" altitud="516.1" altitudUnidad="m" />
-            <distancia unidad="km">81.0</distancia>
+            <nombre>Punto anonimo 10</nombre>
+            <coordenadas longitud="0.170660" longitudUnidad="grados" latitud="40.298292" latitudUnidad="grados" altitud="236.2" altitudUnidad="m" />
+            <distancia unidad="km">13.5</distancia>
         </puntoAnonimo>
         <puntoAnonimo>
-            <coordenadas longitud="-0.00369" longitudUnidad="grados" latitud="40.201924"
-                latitudUnidad="grados" altitud="362.1" altitudUnidad="m" />
-            <distancia unidad="km">90.1</distancia>
+            <nombre>Punto anonimo 12</nombre>
+            <coordenadas longitud="0.164383" longitudUnidad="grados" latitud="40.295482" latitudUnidad="grados" altitud="191.8" altitudUnidad="m" />
+            <distancia unidad="km">14.6</distancia>
         </puntoAnonimo>
         <puntoAnonimo>
-            <coordenadas longitud="0.014982" longitudUnidad="grados" latitud="40.16538"
-                latitudUnidad="grados" altitud="269.8" altitudUnidad="m" />
-            <distancia unidad="km">100.2</distancia>
+            <nombre>Punto anonimo 13</nombre>
+            <coordenadas longitud="0.132651" longitudUnidad="grados" latitud="40.320245" latitudUnidad="grados" altitud="235.2" altitudUnidad="m" />
+            <distancia unidad="km">19.9</distancia>
         </puntoAnonimo>
         <puntoAnonimo>
-            <coordenadas longitud="0.088334" longitudUnidad="grados" latitud="40.157974"
-                latitudUnidad="grados" altitud="283.1" altitudUnidad="m" />
-            <distancia unidad="km">108.6</distancia>
+            <nombre>Punto anonimo 14</nombre>
+            <coordenadas longitud="0.079587" longitudUnidad="grados" latitud="40.258657" latitudUnidad="grados" altitud="279.8" altitudUnidad="m" />
+            <distancia unidad="km">29.2</distancia>
         </puntoAnonimo>
         <puntoAnonimo>
-            <coordenadas longitud="0.126424" longitudUnidad="grados" latitud="40.137637"
-                latitudUnidad="grados" altitud="40.0" altitudUnidad="m" />
-            <distancia unidad="km">114.8</distancia>
+            <nombre>Punto anonimo 15</nombre>
+            <coordenadas longitud="0.038963" longitudUnidad="grados" latitud="40.271185" latitudUnidad="grados" altitud="428.6" altitudUnidad="m" />
+            <distancia unidad="km">33.8</distancia>
         </puntoAnonimo>
         <puntoAnonimo>
-            <coordenadas longitud="0.098229" longitudUnidad="grados" latitud="40.062095"
-                latitudUnidad="grados" altitud="20.0" altitudUnidad="m" />
-            <distancia unidad="km">128.2</distancia>
+            <nombre>Punto anonimo 16</nombre>
+            <coordenadas longitud="0.040295" longitudUnidad="grados" latitud="40.287581" latitudUnidad="grados" altitud="598.2" altitudUnidad="m" />
+            <distancia unidad="km">37.0</distancia>
         </puntoAnonimo>
         <puntoAnonimo>
-            <coordenadas longitud="0.050845" longitudUnidad="grados" latitud="40.054698"
-                latitudUnidad="grados" altitud="40.3" altitudUnidad="m" />
-            <distancia unidad="km">133.3</distancia>
+            <nombre>Punto anonimo 17</nombre>
+            <coordenadas longitud="0.030816" longitudUnidad="grados" latitud="40.288025" latitudUnidad="grados" altitud="718.2" altitudUnidad="m" />
+            <distancia unidad="km">38.6</distancia>
         </puntoAnonimo>
         <puntoAnonimo>
-            <coordenadas longitud="0.044531" longitudUnidad="grados" latitud="40.071401"
-                latitudUnidad="grados" altitud="294.8" altitudUnidad="m" />
-            <distancia unidad="km">138.1</distancia>
+            <nombre>Punto anonimo 18</nombre>
+            <coordenadas longitud="0.051153" longitudUnidad="grados" latitud="40.339364" latitudUnidad="grados" altitud="743.3" altitudUnidad="m" />
+            <distancia unidad="km">48.1</distancia>
         </puntoAnonimo>
         <puntoAnonimo>
-            <coordenadas longitud="0.023065" longitudUnidad="grados" latitud="40.071259"
-                latitudUnidad="grados" altitud="372.6" altitudUnidad="m" />
-            <distancia unidad="km">142.3</distancia>
+            <nombre>Punto anonimo 19</nombre>
+            <coordenadas longitud="0.023511" longitudUnidad="grados" latitud="40.356145" latitudUnidad="grados" altitud="527.0" altitudUnidad="m" />
+            <distancia unidad="km">52.3</distancia>
         </puntoAnonimo>
         <puntoAnonimo>
-            <coordenadas longitud="0.005459" longitudUnidad="grados" latitud="40.050207"
-                latitudUnidad="grados" altitud="149.3" altitudUnidad="m" />
-            <distancia unidad="km">146.9</distancia>
+            <nombre>Punto anonimo 20</nombre>
+            <coordenadas longitud="-0.047145" longitudUnidad="grados" latitud="40.298596" latitudUnidad="grados" altitud="473.5" altitudUnidad="m" />
+            <distancia unidad="km">61.6</distancia>
         </puntoAnonimo>
         <puntoAnonimo>
-            <coordenadas longitud="0.016393" longitudUnidad="grados" latitud="40.025312"
-                latitudUnidad="grados" altitud="0.5" altitudUnidad="m" />
-            <distancia unidad="km">153.5</distancia>
+            <nombre>Punto anonimo 21</nombre>
+            <coordenadas longitud="-0.006443" longitudUnidad="grados" latitud="40.258488" latitudUnidad="grados" altitud="672.3" altitudUnidad="m" />
+            <distancia unidad="km">71.0</distancia>
         </puntoAnonimo>
         <puntoAnonimo>
-            <coordenadas longitud="0.067027" longitudUnidad="grados" latitud="40.05104"
-                latitudUnidad="grados" altitud="8.7" altitudUnidad="m" />
-            <distancia unidad="km">159.6</distancia>
+            <nombre>Punto anonimo 22</nombre>
+            <coordenadas longitud="-0.014099" longitudUnidad="grados" latitud="40.239698" latitudUnidad="grados" altitud="525.1" altitudUnidad="m" />
+            <distancia unidad="km">73.7</distancia>
         </puntoAnonimo>
         <puntoAnonimo>
-            <coordenadas longitud="0.040438" longitudUnidad="grados" latitud="40.071115"
-                latitudUnidad="grados" altitud="181.1" altitudUnidad="m" />
-            <distancia unidad="km">165.1</distancia>
+            <nombre>Punto anonimo 23</nombre>
+            <coordenadas longitud="0.025960" longitudUnidad="grados" latitud="40.210099" latitudUnidad="grados" altitud="307.9" altitudUnidad="m" />
+            <distancia unidad="km">79.2</distancia>
         </puntoAnonimo>
         <puntoAnonimo>
-            <coordenadas longitud="0.044239" longitudUnidad="grados" latitud="40.080315"
-                latitudUnidad="grados" altitud="373.8" altitudUnidad="m" />
-            <distancia unidad="km">168.6</distancia>
+            <nombre>Punto anonimo 24</nombre>
+            <coordenadas longitud="-0.033861" longitudUnidad="grados" latitud="40.181116" latitudUnidad="grados" altitud="310.1" altitudUnidad="m" />
+            <distancia unidad="km">85.5</distancia>
         </puntoAnonimo>
         <puntoAnonimo>
-            <coordenadas longitud="0.032809" longitudUnidad="grados" latitud="40.086324"
-                latitudUnidad="grados" altitud="667.2" altitudUnidad="m" />
-            <distancia unidad="km">171.9</distancia>
+            <nombre>Punto anonimo 25</nombre>
+            <coordenadas longitud="-0.027551" longitudUnidad="grados" latitud="40.168737" latitudUnidad="grados" altitud="280.3" altitudUnidad="m" />
+            <distancia unidad="km">87.1</distancia>
         </puntoAnonimo>
         <puntoAnonimo>
-            <coordenadas longitud="0.02745" longitudUnidad="grados" latitud="40.073155"
-                latitudUnidad="grados" altitud="416.9" altitudUnidad="m" />
-            <distancia unidad="km">175.9</distancia>
+            <nombre>Punto anonimo 26</nombre>
+            <coordenadas longitud="-0.012428" longitudUnidad="grados" latitud="40.173501" latitudUnidad="grados" altitud="291.8" altitudUnidad="m" />
+            <distancia unidad="km">88.6</distancia>
         </puntoAnonimo>
         <puntoAnonimo>
-            <coordenadas longitud="0.008543" longitudUnidad="grados" latitud="40.053928"
-                latitudUnidad="grados" altitud="199.8" altitudUnidad="m" />
-            <distancia unidad="km">180.4</distancia>
+            <nombre>Punto anonimo 27</nombre>
+            <coordenadas longitud="0.044305" longitudUnidad="grados" latitud="40.155245" latitudUnidad="grados" altitud="278.4" altitudUnidad="m" />
+            <distancia unidad="km">94.2</distancia>
         </puntoAnonimo>
         <puntoAnonimo>
-            <coordenadas longitud="-0.025448" longitudUnidad="grados" latitud="40.023736"
-                latitudUnidad="grados" altitud="25.3" altitudUnidad="m" />
-            <distancia unidad="km">187.1</distancia>
+            <nombre>Punto anonimo 28</nombre>
+            <coordenadas longitud="0.080720" longitudUnidad="grados" latitud="40.159578" latitudUnidad="grados" altitud="336.8" altitudUnidad="m" />
+            <distancia unidad="km">97.9</distancia>
         </puntoAnonimo>
         <puntoAnonimo>
-            <coordenadas longitud="-0.033473" longitudUnidad="grados" latitud="39.975809"
-                latitudUnidad="grados" altitud="18.3" altitudUnidad="m" />
-            <distancia unidad="km">195.4</distancia>
+            <nombre>Punto anonimo 29</nombre>
+            <coordenadas longitud="0.151670" longitudUnidad="grados" latitud="40.139383" latitudUnidad="grados" altitud="11.8" altitudUnidad="m" />
+            <distancia unidad="km">106.7</distancia>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Punto anonimo 30</nombre>
+            <coordenadas longitud="0.109728" longitudUnidad="grados" latitud="40.073178" latitudUnidad="grados" altitud="112.6" altitudUnidad="m" />
+            <distancia unidad="km">114.9</distancia>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Punto anonimo 31</nombre>
+            <coordenadas longitud="0.089976" longitudUnidad="grados" latitud="40.056127" latitudUnidad="grados" altitud="16.3" altitudUnidad="m" />
+            <distancia unidad="km">117.7</distancia>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Punto anonimo 32</nombre>
+            <coordenadas longitud="0.068764" longitudUnidad="grados" latitud="40.056609" latitudUnidad="grados" altitud="10.0" altitudUnidad="m" />
+            <distancia unidad="km">119.6</distancia>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Punto anonimo 33</nombre>
+            <coordenadas longitud="0.045214" longitudUnidad="grados" latitud="40.056906" latitudUnidad="grados" altitud="73.2" altitudUnidad="m" />
+            <distancia unidad="km">121.9</distancia>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Punto anonimo 35</nombre>
+            <coordenadas longitud="0.044538" longitudUnidad="grados" latitud="40.071416" latitudUnidad="grados" altitud="304.0" altitudUnidad="m" />
+            <distancia unidad="km">124.4</distancia>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Punto anonimo 34</nombre>
+            <coordenadas longitud="0.042572" longitudUnidad="grados" latitud="40.075716" latitudUnidad="grados" altitud="271.0" altitudUnidad="m" />
+            <distancia unidad="km">125.1</distancia>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Punto anonimo 36</nombre>
+            <coordenadas longitud="0.041489" longitudUnidad="grados" latitud="40.079596" latitudUnidad="grados" altitud="379.8" altitudUnidad="m" />
+            <distancia unidad="km">126.7</distancia>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Punto anonimo 37</nombre>
+            <coordenadas longitud="-0.008524" longitudUnidad="grados" latitud="40.026150" latitudUnidad="grados" altitud="29.0" altitudUnidad="m" />
+            <distancia unidad="km">137.2</distancia>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Punto anonimo 38</nombre>
+            <coordenadas longitud="0.016387" longitudUnidad="grados" latitud="40.025368" latitudUnidad="grados" altitud="2.1" altitudUnidad="m" />
+            <distancia unidad="km">139.7</distancia>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Punto anonimo 39</nombre>
+            <coordenadas longitud="0.068764" longitudUnidad="grados" latitud="40.056609" latitudUnidad="grados" altitud="10.0" altitudUnidad="m" />
+            <distancia unidad="km">146.1</distancia>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Punto anonimo 40</nombre>
+            <coordenadas longitud="0.045214" longitudUnidad="grados" latitud="40.056906" latitudUnidad="grados" altitud="73.2" altitudUnidad="m" />
+            <distancia unidad="km">148.4</distancia>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Punto anonimo 42</nombre>
+            <coordenadas longitud="0.044538" longitudUnidad="grados" latitud="40.071416" latitudUnidad="grados" altitud="304.0" altitudUnidad="m" />
+            <distancia unidad="km">150.9</distancia>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Punto anonimo 41</nombre>
+            <coordenadas longitud="0.042572" longitudUnidad="grados" latitud="40.075716" latitudUnidad="grados" altitud="271.0" altitudUnidad="m" />
+            <distancia unidad="km">151.6</distancia>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Punto anonimo 43</nombre>
+            <coordenadas longitud="0.045674" longitudUnidad="grados" latitud="40.087519" latitudUnidad="grados" altitud="487.6" altitudUnidad="m" />
+            <distancia unidad="km">154.3</distancia>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Punto anonimo 44</nombre>
+            <coordenadas longitud="0.021060" longitudUnidad="grados" latitud="40.076804" latitudUnidad="grados" altitud="581.1" altitudUnidad="m" />
+            <distancia unidad="km">158.5</distancia>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Punto anonimo 45</nombre>
+            <coordenadas longitud="-0.008524" longitudUnidad="grados" latitud="40.026150" latitudUnidad="grados" altitud="29.0" altitudUnidad="m" />
+            <distancia unidad="km">168.8</distancia>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Punto anonimo 46</nombre>
+            <coordenadas longitud="-0.042786" longitudUnidad="grados" latitud="40.004986" latitudUnidad="grados" altitud="26.5" altitudUnidad="m" />
+            <distancia unidad="km">172.9</distancia>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Punto anonimo 47</nombre>
+            <coordenadas longitud="-0.022453" longitudUnidad="grados" latitud="39.993451" latitudUnidad="grados" altitud="14.4" altitudUnidad="m" />
+            <distancia unidad="km">175.3</distancia>
         </puntoAnonimo>
     </puntosAnonimos>
-
-
     <clasificacionEtapa>
         <clasificado posicion="1" nombre="T. POGACAR" tiempo="PT4H12M40S" diferencia="PT0S" />
         <clasificado posicion="2" nombre="E. MAS" tiempo="PT4H12M40S" diferencia="PT0S" />
-        <clasificado posicion="3" nombre="R. DEBRUYNE" tiempo="PT4H13M26S"
-            diferencia="PT46S" />
+        <clasificado posicion="3" nombre="R. DEBRUYNE" tiempo="PT4H13M26S" diferencia="PT46S" />
     </clasificacionEtapa>
-
     <clasificacionGeneral>
         <clasificadoGeneral posicion="1" nombre="E. MAS" tiempo="PT73H52M55S" diferencia="PT0S" />
-        <clasificadoGeneral posicion="2" nombre="P. ROGLIC" tiempo="PT73H55M10S"
-            diferencia="PT2M15S" />
-        <clasificadoGeneral posicion="3" nombre="F. GALL" tiempo="PT73H55M39S"
-            diferencia="PT2M44S" />
+        <clasificadoGeneral posicion="2" nombre="P. ROGLIC" tiempo="PT73H55M10S" diferencia="PT2M15S" />
+        <clasificadoGeneral posicion="3" nombre="F. GALL" tiempo="PT73H55M39S" diferencia="PT2M44S" />
     </clasificacionGeneral>
-
     <clasificacionEquipos>
-        <equipo posicion="1" nombre="Decathlon CMA CGM Team" tiempo="PT222H25M14S"
-            diferencia="PT0S" />
-        <equipo posicion="2" nombre="XDS Astana Team" tiempo="PT223H3M14S"
-            diferencia="PT38M0S" />
-        <equipo posicion="3" nombre="Bahrain Victorious" tiempo="PT223H20M0S"
-            diferencia="PT54M46S" />
+        <equipo posicion="1" nombre="Decathlon CMA CGM Team" tiempo="PT222H25M14S" diferencia="PT0S" />
+        <equipo posicion="2" nombre="XDS Astana Team" tiempo="PT223H3M14S" diferencia="PT38M0S" />
+        <equipo posicion="3" nombre="Bahrain Victorious" tiempo="PT223H20M0S" diferencia="PT54M46S" />
     </clasificacionEquipos>
 </etapa>
