@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Planimetria Etapa KML</name>
+
+<Style id="rojo">
+  <IconStyle>
+    <Icon>
+      <href>http://maps.google.com/mapfiles/ms/icons/red-dot.png</href>
+    </Icon>
+  </IconStyle>
+</Style>
+<Style id="verde">
+  <IconStyle>
+    <Icon>
+      <href>http://maps.google.com/mapfiles/ms/icons/green-dot.png</href>
+    </Icon>
+  </IconStyle>
+</Style>
+<Style id="azul">
+  <IconStyle>
+    <Icon>
+      <href>http://maps.google.com/mapfiles/ms/icons/blue-dot.png</href>
+    </Icon>
+  </IconStyle>
+</Style>
+<Style id="amarillo">
+  <IconStyle>
+    <Icon>
+      <href>http://maps.google.com/mapfiles/ms/icons/yellow-dot.png</href>
+    </Icon>
+  </IconStyle>
+</Style>
+<Style id="lineaRuta">
+  <LineStyle>
+    <color>ffff0000</color>
+    <width>4</width>
+  </LineStyle>
+</Style>
+
+<!-- Línea que une todos los puntos -->
+<Placemark>
+  <name>Ruta</name>
+  <styleUrl>#lineaRuta</styleUrl>
+  <LineString>
+    <extrude>1</extrude>
+    <tessellate>1</tessellate>
+    <coordinates>
+      0.246447,40.252003,15
+      0.246426,40.252016,59.9
+      0.186419,40.298231,255.6
+      0.167617,40.299969,171.7
+      0.122231,40.315246,176.5
+      0.067659,40.263945,312.2
+      0.039124,40.284536,568.8
+      0.0248,40.3015,839
+      0.030815,40.306082,801.4
+      0.037634,40.334191,787.2
+      0.022341,40.354578,535.3
+      0.0673,40.2443,790
+      -0.036945,40.292144,603.7
+      -0.019332,40.268497,741.9
+      -0.014017,40.23986,516.1
+      -0.00369,40.201924,362.1
+      0.014982,40.16538,269.8
+      0.088334,40.157974,283.1
+      0.126424,40.137637,40.0
+      0.0631,40.0531,14
+      0.098229,40.062095,20.0
+      0.0354,40.0768,422
+      0.050845,40.054698,40.3
+      0.044531,40.071401,294.8
+      0.023065,40.071259,372.6
+      0.005459,40.050207,149.3
+      0.016393,40.025312,0.5
+      0.0298,40.0886,713
+      0.067027,40.05104,8.7
+      0.040438,40.071115,181.1
+      0.044239,40.080315,373.8
+      0.032809,40.086324,667.2
+      0.02745,40.073155,416.9
+      0.008543,40.053928,199.8
+      -0.025448,40.023736,25.3
+      -0.033473,39.975809,18.3
+      -0.033494,39.975814,19.99
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<!-- Puntos individuales -->
+<Placemark>
+  <name>Salida de la Etapa</name>
+  <styleUrl>#rojo</styleUrl>
+  <Point>
+    <coordinates>0.246447,40.252003,15</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Punto Anónimo 1</name>
+  <styleUrl>#amarillo</styleUrl>
+  <Point>
+    <coordinates>0.246426,40.252016,59.9</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Punto Anónimo 2</name>
+  <styleUrl>#amarillo</styleUrl>
+  <Point>
+    <coordinates>0.186419,40.298231,255.6</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Punto Anónimo 3</name>
+  <styleUrl>#amarillo</styleUrl>
+  <Point>
+    <coordinates>0.167617,40.299969,171.7</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Punto Anónimo 4</name>
+  <styleUrl>#amarillo</styleUrl>
+  <Point>
+    <coordinates>0.122231,40.315246,176.5</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Punto Anónimo 5</name>
+  <styleUrl>#amarillo</styleUrl>
+  <Point>
+    <coordinates>0.067659,40.263945,312.2</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Punto Anónimo 6</name>
+  <styleUrl>#amarillo</styleUrl>
+  <Point>
+    <coordinates>0.039124,40.284536,568.8</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Puerto: Puerto de la Serratella</name>
+  <styleUrl>#verde</styleUrl>
+  <Point>
+    <coordinates>0.0248,40.3015,839</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Punto Anónimo 7</name>
+  <styleUrl>#amarillo</styleUrl>
+  <Point>
+    <coordinates>0.030815,40.306082,801.4</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Punto Anónimo 8</name>
+  <styleUrl>#amarillo</styleUrl>
+  <Point>
+    <coordinates>0.037634,40.334191,787.2</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Punto Anónimo 9</name>
+  <styleUrl>#amarillo</styleUrl>
+  <Point>
+    <coordinates>0.022341,40.354578,535.3</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Puerto: Coll de la Bandereta</name>
+  <styleUrl>#verde</styleUrl>
+  <Point>
+    <coordinates>0.0673,40.2443,790</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Punto Anónimo 10</name>
+  <styleUrl>#amarillo</styleUrl>
+  <Point>
+    <coordinates>-0.036945,40.292144,603.7</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Punto Anónimo 11</name>
+  <styleUrl>#amarillo</styleUrl>
+  <Point>
+    <coordinates>-0.019332,40.268497,741.9</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Punto Anónimo 12</name>
+  <styleUrl>#amarillo</styleUrl>
+  <Point>
+    <coordinates>-0.014017,40.23986,516.1</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Punto Anónimo 13</name>
+  <styleUrl>#amarillo</styleUrl>
+  <Point>
+    <coordinates>-0.00369,40.201924,362.1</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Punto Anónimo 14</name>
+  <styleUrl>#amarillo</styleUrl>
+  <Point>
+    <coordinates>0.014982,40.16538,269.8</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Punto Anónimo 15</name>
+  <styleUrl>#amarillo</styleUrl>
+  <Point>
+    <coordinates>0.088334,40.157974,283.1</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Punto Anónimo 16</name>
+  <styleUrl>#amarillo</styleUrl>
+  <Point>
+    <coordinates>0.126424,40.137637,40.0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Sprint Intermedio</name>
+  <styleUrl>#azul</styleUrl>
+  <Point>
+    <coordinates>0.0631,40.0531,14</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Punto Anónimo 17</name>
+  <styleUrl>#amarillo</styleUrl>
+  <Point>
+    <coordinates>0.098229,40.062095,20.0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Puerto: Alto del Desierto de las Palmas</name>
+  <styleUrl>#verde</styleUrl>
+  <Point>
+    <coordinates>0.0354,40.0768,422</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Punto Anónimo 18</name>
+  <styleUrl>#amarillo</styleUrl>
+  <Point>
+    <coordinates>0.050845,40.054698,40.3</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Punto Anónimo 19</name>
+  <styleUrl>#amarillo</styleUrl>
+  <Point>
+    <coordinates>0.044531,40.071401,294.8</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Punto Anónimo 20</name>
+  <styleUrl>#amarillo</styleUrl>
+  <Point>
+    <coordinates>0.023065,40.071259,372.6</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Punto Anónimo 21</name>
+  <styleUrl>#amarillo</styleUrl>
+  <Point>
+    <coordinates>0.005459,40.050207,149.3</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Punto Anónimo 22</name>
+  <styleUrl>#amarillo</styleUrl>
+  <Point>
+    <coordinates>0.016393,40.025312,0.5</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Puerto: Puerto El Bartolo</name>
+  <styleUrl>#verde</styleUrl>
+  <Point>
+    <coordinates>0.0298,40.0886,713</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Punto Anónimo 23</name>
+  <styleUrl>#amarillo</styleUrl>
+  <Point>
+    <coordinates>0.067027,40.05104,8.7</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Punto Anónimo 24</name>
+  <styleUrl>#amarillo</styleUrl>
+  <Point>
+    <coordinates>0.040438,40.071115,181.1</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Punto Anónimo 25</name>
+  <styleUrl>#amarillo</styleUrl>
+  <Point>
+    <coordinates>0.044239,40.080315,373.8</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Punto Anónimo 26</name>
+  <styleUrl>#amarillo</styleUrl>
+  <Point>
+    <coordinates>0.032809,40.086324,667.2</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Punto Anónimo 27</name>
+  <styleUrl>#amarillo</styleUrl>
+  <Point>
+    <coordinates>0.02745,40.073155,416.9</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Punto Anónimo 28</name>
+  <styleUrl>#amarillo</styleUrl>
+  <Point>
+    <coordinates>0.008543,40.053928,199.8</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Punto Anónimo 29</name>
+  <styleUrl>#amarillo</styleUrl>
+  <Point>
+    <coordinates>-0.025448,40.023736,25.3</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Punto Anónimo 30</name>
+  <styleUrl>#amarillo</styleUrl>
+  <Point>
+    <coordinates>-0.033473,39.975809,18.3</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Meta (Llegada)</name>
+  <styleUrl>#rojo</styleUrl>
+  <Point>
+    <coordinates>-0.033494,39.975814,19.99</coordinates>
+  </Point>
+</Placemark>
+</Document>
+</kml>
