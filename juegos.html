@@ -15,6 +15,8 @@
     <!--Enlace a las hojas de estilo-->
     <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
     <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+
+    <link rel="icon" href="multimedia/favicon.ico" />
 </head>
 
 <body>
@@ -36,84 +38,98 @@
         </nav>
     </header>
 
-    <h2>
-        Juegos
-    </h2>
+    <main>
 
-    <h3>
-        ¿Conoces la etapa?
-    </h3>
-    <p>Esto es un juego de 10 preguntas sobre la etapa 6 de La Vuelta 2026.</p>
-    <form>
-        <fieldset>
-            <legend>Etapa 6: Alcossebre - Castelló</legend>
-            <p>
-                <label for="numero-etapa">¿Cuál es el número de la etapa?</label>
-                <input type="number" id="numero-etapa" min="1" max="21" />
-            </p>
-            <p>
-                <label for="fecha-etapa">¿En qué fecha se celebró esta etapa?</label>
-                <input type="date" id="fecha-etapa" />
-            </p>
-            <p>
-                <label for="salida-etapa">¿Cuál fue el lugar de salida?</label>
-                <select id="salida-etapa">
-                    <option value="">Seleccione una opción</option>
-                    <option value="castelló">Castelló</option>
-                    <option value="alcaraz">Alcaraz</option>
-                    <option value="alcossebre">Alcossebre</option>
-                </select>
-            </p>
-            <p>
-                <label for="llegada-etapa">¿Cuál fue el lugar de llegada?</label>
-                <select id="llegada-etapa">
-                    <option value="">Seleccione una opción</option>
-                    <option value="castelló">Castelló</option>
-                    <option value="alcossebre">Alcossebre</option>
-                    <option value="andorra la vella">Andorra La Vella</option>
-                </select>
-            </p>
-            <p>
-                ¿Qué tipo de etapa es?
-                <input type="radio" id="tipo-llana" /><label for="tipo-llana">Llana</label>
-                <input type="radio" id="tipo-mediamontana" /><label for="tipo-mediamontana">Media montaña</label>
-                <input type="radio" id="tipo-montana" /><label for="tipo-montana">Montaña</label>
-                <input type="radio" id="tipo-cri" /><label for="tipo-cri">Contrarreloj individual</label>
-                <input type="radio" id="tipo-cre" /><label for="tipo-cre">Contrarreloj por equipos</label>
-            </p>
-            <p>
-                Selecciona los hitos presentes en la etapa:
-                <input type="checkbox" id="hito-puerto" /><label for="hito-puerto">Puerto de montaña</label>
-                <input type="checkbox" id="hito-esp" /><label for="hito-esp">Puerto categoría especial</label>
-                <input type="checkbox" id="hito-sprint-inter" /><label for="hito-sprint-inter">Sprint intermedio</label>
-                <input type="checkbox" id="hito-sprint-bonif" /><label for="hito-sprint-bonif">Sprint bonificado</label>
-                <input type="checkbox" id="hito-sin" /><label for="hito-sin">Sin hitos</label>
-            </p>
-            <p>
-                <label for="dureza-etapa">Valora la dureza de la etapa (del 1 al 10):</label>
-                <input type="range" id="dureza-etapa" min="1" max="10" />
-            </p>
-            <p>
-                <label for="longitud-etapa">Longitud de la etapa en km:</label>
-                <input type="number" id="longitud-etapa" min="0" step="any" />
-            </p>
-            <p>
-                <label for="desnivel-etapa">Desnivel acumulado de la etapa (en metros):</label>
-                <input type="number" id="desnivel-etapa" />
-            </p>
-            <p>
-                <label for="descripcion-etapa">Describe brevemente la etapa:</label>
-                <textarea id="descripcion-etapa" rows="4" cols="40"></textarea>
-            </p>
-            <p>
-                <label for="nombre-participante">Nombre del participante:</label>
-                <input type="text" id="nombre-participante" />
-            </p>
-            <p>
-                <button type="submit">Enviar respuestas</button>
-            </p>
-        </fieldset>
-    </form>
+        <h2>
+            Juegos
+        </h2>
+
+        <h3>
+            ¿Conoces la etapa?
+        </h3>
+        <p>Esto es un juego de 10 preguntas sobre la etapa 6 de La Vuelta 2026.</p>
+        <form>
+            <fieldset>
+                <legend>Etapa 6: Alcossebre - Castelló</legend>
+                <p>
+                    <label for="numero-etapa">¿Cuál es el número de la etapa?</label>
+                    <input type="number" id="numero-etapa" min="1" max="21" />
+                </p>
+                <p>
+                    <label for="fecha-etapa">¿En qué fecha se celebró esta etapa?</label>
+                    <input type="date" id="fecha-etapa" />
+                </p>
+                <p>
+                    <label for="salida-etapa">¿Cuál fue el lugar de salida?</label>
+                    <select id="salida-etapa">
+                        <option value="">Seleccione una opción</option>
+                        <option value="castelló">Castelló</option>
+                        <option value="alcaraz">Alcaraz</option>
+                        <option value="alcossebre">Alcossebre</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="llegada-etapa">¿Cuál fue el lugar de llegada?</label>
+                    <select id="llegada-etapa">
+                        <option value="">Seleccione una opción</option>
+                        <option value="castelló">Castelló</option>
+                        <option value="alcossebre">Alcossebre</option>
+                        <option value="andorra la vella">Andorra La Vella</option>
+                    </select>
+                </p>
+                <p>
+                    ¿Qué tipo de etapa es?
+                    <input type="radio" id="tipo-llana" /><label for="tipo-llana">Llana</label>
+                    <input type="radio" id="tipo-mediamontana" /><label for="tipo-mediamontana">Media montaña</label>
+                    <input type="radio" id="tipo-montana" /><label for="tipo-montana">Montaña</label>
+                    <input type="radio" id="tipo-cri" /><label for="tipo-cri">Contrarreloj individual</label>
+                    <input type="radio" id="tipo-cre" /><label for="tipo-cre">Contrarreloj por equipos</label>
+                </p>
+                <p>
+                    Selecciona los hitos presentes en la etapa:
+                    <input type="checkbox" id="hito-puerto" /><label for="hito-puerto">Puerto de montaña</label>
+                    <input type="checkbox" id="hito-esp" /><label for="hito-esp">Puerto categoría especial</label>
+                    <input type="checkbox" id="hito-sprint-inter" /><label for="hito-sprint-inter">Sprint
+                        intermedio</label>
+                    <input type="checkbox" id="hito-sprint-bonif" /><label for="hito-sprint-bonif">Sprint
+                        bonificado</label>
+                    <input type="checkbox" id="hito-sin" /><label for="hito-sin">Sin hitos</label>
+                </p>
+                <p>
+                    <label for="dureza-etapa">Valora la dureza de la etapa (del 1 al 10):</label>
+                    <input type="range" id="dureza-etapa" min="1" max="10" />
+                </p>
+                <p>
+                    <label for="longitud-etapa">Longitud de la etapa en km:</label>
+                    <input type="number" id="longitud-etapa" min="0" step="any" />
+                </p>
+                <p>
+                    <label for="desnivel-etapa">Desnivel acumulado de la etapa (en metros):</label>
+                    <input type="number" id="desnivel-etapa" />
+                </p>
+                <p>
+                    <label for="descripcion-etapa">Describe brevemente la etapa:</label>
+                    <textarea id="descripcion-etapa" rows="4" cols="40"></textarea>
+                </p>
+                <p>
+                    <label for="nombre-participante">Nombre del participante:</label>
+                    <input type="text" id="nombre-participante" />
+                </p>
+                <p>
+                    <button type="submit">Enviar respuestas</button>
+                </p>
+            </fieldset>
+        </form>
+
+    </main>
+    <footer>
+        <p>Andrea Ivanov</p>
+        <address>
+            <a href="mailto:UO294530@uniovi.es">UO294530@uniovi.es</a>
+        </address>
+    </footer>
+
 </body>
+
 
 </html>
