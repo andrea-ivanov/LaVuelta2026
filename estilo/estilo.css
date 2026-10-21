@@ -9,21 +9,29 @@
 /*  Grupo de laboratorio:                           */
 /* **************************************************/
 
-/*
-Color principal: ##eb880d (naranja) o Contraste de 7.86:1 con color blanco #FFFFFF (AAA) o Contraste de 7.04:1 con color secundario #F9F0F5 (AAA) Color secundario: #F9F0F5 (Rosado) o Contraste de 12.16:1 con color negro #000000 (AAA) o Contraste de 7.04:1 con color principal #684B41 (AAA) Color blanco: #FFFFFF Color negro: #000000
-*/
+/* ************************************************************************** */
+/* GAMA CROMÁTICA Y ESTUDIO DE CONTRASTE (NIVEL AAA)                          */
+/* ************************************************************************** */
+/* 
+   Color principal: #EB880D (Naranja)
+   o Contraste de 8.06:1 con color negro #000000 (AAA - combinación válida)
+   o Contraste de 2.61:1 con color blanco #FFFFFF (NO CONTRASTA - se descarta)
+   o Contraste de 1.06:1 con color secundario #A19B93 (NO CONTRASTA - se descarta)
 
-/*
-Color principal: ##eb880d (naranja)
-Color secundario: #a19b93 (gris)
-*/
+   Color secundario: #A19B93 (Gris)
+   o Contraste de 7.63:1 con color negro #000000 (AAA - combinación válida)
+   o Contraste de 2.75:1 con color blanco #FFFFFF (NO CONTRASTA - se descarta)
+   o Contraste de 1.06:1 con color principal #EB880D (NO CONTRASTA - se descarta)
 
+   Color blanco: #FFFFFF
+   Color negro: #000000
+*/
 
 /* Especificidad: 010 */
 :root {
-    --color-principal: #684B41;
-    --color-secundario: #F9F0F5;
-    --color-blanco: #FFFFFF;
+    --color-principal: #eb880d;
+    --color-secundario: #a19b93;
+    --color-blanco: #ffffff;
     --color-negro: #000000;
 }
 
@@ -38,18 +46,18 @@ body {
 header,
 footer {
     background-color: var(--color-principal);
-    color: var(--color-blanco);
+    color: var(--color-negro);
 }
 
 /* Especificidad: 002 */
 header h1 {
-    color: var(--color-blanco);
+    color: var(--color-negro);
 }
 
 /* Especificidad: 002 */
 header a,
 footer a {
-    color: var(--color-blanco);
+    color: var(--color-negro);
 }
 
 /* Especificidad: 001 */
