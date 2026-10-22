@@ -13,15 +13,12 @@
 /* GAMA CROMÁTICA Y ESTUDIO DE CONTRASTE (NIVEL AAA)                          */
 /* ************************************************************************** */
 /* 
-   Color principal: #EB880D (Naranja)
-   o Contraste de 8.06:1 con color negro #000000 (AAA - combinación válida)
-   o Contraste de 2.61:1 con color blanco #FFFFFF (NO CONTRASTA - se descarta)
-   o Contraste de 1.06:1 con color secundario #A19B93 (NO CONTRASTA - se descarta)
+   Color principal: #0056B3 (Azul oscuro)
+    - Contraste de 7.04:1 con color blanco #FFFFFF
 
-   Color secundario: #A19B93 (Gris)
-   o Contraste de 7.63:1 con color negro #000000 (AAA - combinación válida)
-   o Contraste de 2.75:1 con color blanco #FFFFFF (NO CONTRASTA - se descarta)
-   o Contraste de 1.06:1 con color principal #EB880D (NO CONTRASTA - se descarta)
+   Color secundario: #0D5C3A (Verde oscuro)
+    - Contraste de 8.04:1 con color blanco #FFFFFF
+    - Contraste de 1:8.04 con color blanco #FFFFFF
 
    Color blanco: #FFFFFF
    Color negro: #000000
@@ -29,8 +26,8 @@
 
 /* Especificidad: 010 */
 :root {
-    --color-principal: #eb880d;
-    --color-secundario: #a19b93;
+    --color-principal: #0056B3;
+    --color-secundario: #0D5C3A;
     --color-blanco: #ffffff;
     --color-negro: #000000;
 }
@@ -46,18 +43,21 @@ body {
 header,
 footer {
     background-color: var(--color-principal);
-    color: var(--color-negro);
+    color: var(--color-blanco);
 }
 
 /* Especificidad: 002 */
 header h1 {
-    color: var(--color-negro);
+    color: var(--color-blanco);
+    /*ADVERTENCIA: color de fondo heredado de header y footer --color-principal */
 }
 
 /* Especificidad: 002 */
 header a,
 footer a {
-    color: var(--color-negro);
+    color: var(--color-blanco);
+    /*ADVERTENCIA: color de fondo heredado de header y footer --color-principal */
+    text-decoration: none;
 }
 
 /* Especificidad: 001 */
@@ -67,5 +67,30 @@ h3,
 h4,
 h5,
 h6 {
+    color: var(--color-secundario);
+    /*ADVERTENCIA: color de fondo heredado de header y footer --color-principal */
+}
+
+/* Especificidad: 012 */
+header nav a[aria-current="page"] {
+    font-weight: bold;
+    background-color: var(--color-blanco);
     color: var(--color-principal);
+}
+
+/* Especificidad: 003 */
+header+nav>ol {
+    font-size: 0.85em;
+    list-style: none;
+    padding-left: 0;
+}
+
+/* Especificidad: 004 */
+header+nav>ol>li {
+    display: inline;
+}
+
+/* Especificidad: 014 */
+header+nav>ol>li:last-child {
+    font-weight: bold;
 }
