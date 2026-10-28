@@ -71,7 +71,7 @@ h6 {
     /*ADVERTENCIA: color de fondo heredado de header y footer --color-principal */
 }
 
-/* Especificidad: 012 */
+/* Especificidad: 013 */
 header nav a[aria-current="page"] {
     font-weight: bold;
     background-color: var(--color-blanco);
@@ -93,4 +93,33 @@ header+nav>ol>li {
 /* Especificidad: 014 */
 header+nav>ol>li:last-child {
     font-weight: bold;
+}
+
+/* Especificidad: 014 */
+section:has(picture)>ul>li:first-child {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+/* Especificidad: 014 */
+section:has(picture)>ul>li:nth-child(3) {
+    font-size: 1.4em;
+}
+
+/* Especificidad: 014 */
+section:has(picture)>ul>li:nth-child(4) {
+    font-weight: bold;
+}
+
+/* Especificidad: 001 */
+table {
+    border-collapse: collapse;
+}
+
+/* Especificidad: 001 */
+th,
+td {
+    border: 1px solid var(--color-secundario);
+    padding: 0.5em;
+    text-align: left;
 }
