@@ -97,7 +97,7 @@ footer {
     padding: 0.5em;
 }
 
-/* Especificidad: 001 */
+/* Especificidad: 001, 001 */
 video,
 audio {
     max-width: 100%;
@@ -111,7 +111,7 @@ form {
 }
 
 /* Especificidad: 002 */
-form fieldset {
+form>fieldset {
     display: flex;
     flex-direction: column;
     gap: 0.5em;
@@ -132,9 +132,10 @@ form button {
 }
 
 @media (max-width: 1024px) {
+
+    /* Especificidad: 002 */
     section:has(article) {
-        grid-template-columns: repeat(2, 1fr);
-        /*ADVERTENCIA: redefinición de la propiedad con valor original repeat(2, 1fr) */
+        grid-template-columns: repeat(2, 1fr); /*ADVERTENCIA: redefinición de la propiedad con valor original repeat(4, 1fr) */
     }
 
     /* Especificidad: 001*/
@@ -158,10 +159,10 @@ form button {
 
     /* Especificidad: 002 */
     section:has(article) {
-        grid-template-columns: 1fr;
-        /*ADVERTENCIA: redefinición de la propiedad con valor original repeat(2, 1fr) */
+        grid-template-columns: 1fr; /*ADVERTENCIA: redefinición de la propiedad con valor original repeat(2, 1fr) */
     }
 
+    /* Especificidad: 002 */
     header nav {
         flex-direction: column;
         align-items: center;
