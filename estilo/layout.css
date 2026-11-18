@@ -55,11 +55,10 @@ section:has(article)>h3 {
 
 /* Especificidad: 001 */
 body {
-    margin: 0;
-    min-height: 100vh;
     display: grid;
-    grid-template-areas: "cabecera" "migas" "contenido" "pie";
-    grid-template-rows: auto auto 1fr auto;
+    min-height: 100vh;
+    grid-template-areas: "cabecera" "buscador" "migas" "contenido" "pie";
+    grid-template-rows: auto auto auto 1fr auto;
 }
 
 /* Especificidad: 001 */
@@ -78,8 +77,26 @@ header nav {
 }
 
 /* Especificidad: 002 */
+header>button {
+    display: none;
+}
+
+/* Especificidad: 002 */
 header+nav {
     grid-area: migas;
+}
+
+/* Especificidad: 001 */
+search {
+    grid-area: buscador;
+    justify-self: end;
+    display: flex;
+    align-items: center;
+    gap: 0.3em;
+    padding: 0.3em 0.6em;
+    margin: 0.5em 1.5em 0.5em auto;
+    border: 1px solid var(--color-secundario);
+    border-radius: 4px;
 }
 
 /* Especificidad: 001 */
@@ -135,7 +152,8 @@ form button {
 
     /* Especificidad: 002 */
     section:has(article) {
-        grid-template-columns: repeat(2, 1fr); /*ADVERTENCIA: redefinición de la propiedad con valor original repeat(4, 1fr) */
+        grid-template-columns: repeat(2, 1fr);
+        /*ADVERTENCIA: redefinición de la propiedad con valor original repeat(4, 1fr) */
     }
 
     /* Especificidad: 001*/
@@ -143,10 +161,22 @@ form button {
         flex-direction: column;
     }
 
+    /* Especificidad: 002 */
+    header>button {
+        display: block;
+        margin-bottom: 0.5em;
+    }
+
     /* Especificidad: 002*/
     header nav {
-        width: 100%;
-        justify-content: space-around;
+        display: none;
+    }
+
+    /* Especificidad: 011 */
+    nav.abierto {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
     }
 
     /* Especificidad: 002*/
@@ -159,12 +189,19 @@ form button {
 
     /* Especificidad: 002 */
     section:has(article) {
-        grid-template-columns: 1fr; /*ADVERTENCIA: redefinición de la propiedad con valor original repeat(2, 1fr) */
+        grid-template-columns: 1fr;
+        /*ADVERTENCIA: redefinición de la propiedad con valor original repeat(2, 1fr) */
     }
 
     /* Especificidad: 002 */
     header nav {
         flex-direction: column;
         align-items: center;
+    }
+
+    /* Especificidad: 002*/
+    header>button {
+        display: block;
+        margin-bottom: 0.5em;
     }
 }

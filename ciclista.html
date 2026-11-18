@@ -17,6 +17,9 @@
     <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
 
     <link rel="icon" href="multimedia/favicon.ico" />
+
+    <script src="js/menu.js" defer></script>
+    <script src="js/buscador.js" defer></script>
 </head>
 
 <body>
@@ -25,6 +28,7 @@
         <h1>
             <a href="index.html" title="Pagina principal">LaVuelta2026</a>
         </h1>
+        <button type="button" aria-label="Abrir menú de navegación" aria-expanded="false">☰</button>
         <nav>
             <a href="index.html" title="Pagina principal">Inicio</a>
             <a href="ciclista.html" title="Información del ciclista 131 - Markel Beloki "
@@ -38,6 +42,13 @@
             <a href="ayuda.html" title="Sección de ayuda">Ayuda</a>
         </nav>
     </header>
+
+    <search aria-label="Buscador">
+        <label for="busqueda">
+            <img src="multimedia/buscador.png" alt="icono lupa" />
+        </label>
+        <input type="search" id="busqueda" aria-label="Buscar" placeholder="Buscar..." />
+    </search>
 
     <nav aria-label="migas">
         <ol>
@@ -65,8 +76,10 @@
             </ul>
 
             <picture>
-                <source media="(max-width: 768px)" srcset="multimedia/markel_beloki_movil.png" width="100" height="150" />
-                <source media="(max-width: 1024px)" srcset="multimedia/markel_beloki_tablet.png" width="200" height="303" />
+                <source media="(max-width: 768px)" srcset="multimedia/markel_beloki_movil.png" width="100"
+                    height="150" />
+                <source media="(max-width: 1024px)" srcset="multimedia/markel_beloki_tablet.png" width="200"
+                    height="303" />
                 <img src="multimedia/markel_beloki.png" alt="Imagen de Markel Beloki" width="300" height="455" />
             </picture>
         </section>

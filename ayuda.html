@@ -17,6 +17,9 @@
     <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
 
     <link rel="icon" href="multimedia/favicon.ico" />
+
+    <script src="js/menu.js" defer></script>
+    <script src="js/buscador.js" defer></script>
 </head>
 
 <body>
@@ -25,6 +28,7 @@
         <h1>
             <a href="index.html" title="Pagina principal">LaVuelta2026</a>
         </h1>
+        <button type="button" aria-label="Abrir menú de navegación" aria-expanded="false">☰</button>
         <nav>
             <a href="index.html" title="Pagina principal">Inicio</a>
             <a href="ciclista.html" title="Información del ciclista 131 - Markel Beloki ">Ciclista</a>
@@ -37,6 +41,13 @@
             <a href="ayuda.html" title="Sección de ayuda" aria-current="page">Ayuda</a>
         </nav>
     </header>
+
+    <search aria-label="Buscador">
+        <label for="busqueda">
+            <img src="multimedia/buscador.png" alt="icono lupa" />
+        </label>
+        <input type="search" id="busqueda" aria-label="Buscar" placeholder="Buscar..." />
+    </search>
 
     <nav aria-label="migas">
         <ol>
@@ -92,7 +103,7 @@
             <p>
                 Página dedicada al equipo EF Education-EasyPost en La Vuelta Ciclista a España 2026. Muestra los datos
                 básicos del equipo como código UCI, país, director y categoría además de la alineación de los
-                corredores.
+                corredores, todo ello cargado dinámicamente mostrando información de todos los ciclistas.
             </p>
         </section>
 
@@ -150,7 +161,8 @@
             <p>
                 Juego interactivo (formulario) con diez preguntas sobre la etapa 6 de La Vuelta 2026 (Alcossebre -
                 Castelló), donde se ponen a prueba los conocimientos sobre el recorrido, fechas, lugares de salida y
-                meta, tipo de etapa, hitos y datos técnicos.
+                meta, tipo de etapa, hitos y datos técnicos. Tras enviar el formulario relleno se muestra la puntuación
+                obtenida, la dureza asignada y la descripción que el participante haya aportado.
             </p>
         </section>
 
