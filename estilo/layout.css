@@ -82,7 +82,7 @@ header>button {
 }
 
 /* Especificidad: 002 */
-header+nav {
+search+nav {
     grid-area: migas;
 }
 
@@ -117,7 +117,8 @@ footer {
 /* Especificidad: 001, 001 */
 video,
 audio {
-    max-width: 100%;
+    width: 100%;
+    max-width: 640px;
     height: auto;
 }
 
@@ -180,8 +181,15 @@ form button {
     }
 
     /* Especificidad: 002*/
-    header+nav {
+    search+nav {
         display: none;
+    }
+
+    /* Especificidad: 003 */
+    article h2+img {
+        width: 100%;
+        max-width: 640px;
+        height: auto;
     }
 }
 

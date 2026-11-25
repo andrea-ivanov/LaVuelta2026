@@ -73,19 +73,19 @@ header nav a[aria-current="page"] {
 }
 
 /* Especificidad: 003 */
-header+nav>ol {
+search+nav>ol {
     font-size: 0.85em;
     list-style: none;
     padding-left: 0;
 }
 
 /* Especificidad: 004 */
-header+nav>ol>li {
+search+nav>ol>li {
     display: inline;
 }
 
 /* Especificidad: 014 */
-header+nav>ol>li:last-child {
+search+nav>ol>li:last-child {
     font-weight: bold;
 }
 
